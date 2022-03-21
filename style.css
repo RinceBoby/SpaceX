@@ -1,0 +1,221 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+
+
+a {
+    color: #ffffff;
+    position: relative;
+    text-decoration: none;
+}
+      
+      a::before {
+        content: '';
+        position: absolute;
+        width: 80%;
+        height: 4px;
+        border-radius: 4px;
+        background-color: #ffffff;
+        bottom: 0;
+        left: 0;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .3s ease-in-out;
+        margin-left: 20px;
+      }
+      
+      a:hover::before {
+        transform-origin: left;
+        transform: scaleX(1);
+      }
+
+
+
+
+
+
+
+.header{
+    height: 647px;
+    width: 100%;
+    background-image:url(Images/Image\ 1.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: baseline;
+    
+}
+.logo{
+    width: 220px;
+    overflow: hidden;
+    margin-left: 50px;
+    padding-top: 30px;
+}
+.logo img{
+    width: 100%;
+    float: left;
+}
+.navbar{
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    margin-left:-25px;
+    height: 80px;
+}
+.menu{
+    display: inline-flex;
+    padding-top: 25px;
+}
+
+.menu li{
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 350;
+    font-size: 14px;
+    margin-left: 23px;
+}
+
+.menu img{
+    padding-top: 3px;
+    width: 20px;
+    height: 10px;
+    
+}
+.shop ul a{
+    padding-bottom: 5px;
+}
+.shop ul{
+    margin-left: 300px;
+    
+
+}
+.starlink{
+    position:relative;
+    padding-top: 360px;
+    margin-left: -1287px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+
+}
+.starlink p{
+    font-size: 50px;
+    margin-top: -15px;
+}
+.starlink h3{
+    
+}
+.btn-container{
+    text-align:center;
+    margin-top: 470px;
+    position: absolute;
+    margin-left: 55px;
+    padding-top: 10px;
+}
+.btn1{
+    border: 2px solid #fff;
+    background: none;
+    padding: 15px 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+
+}
+.btn-container:hover{
+    color: #fff;
+}
+.main1{
+    height: 647px;
+    width: 100%;
+    background-image:url(Images/Image\ 2.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: baseline;
+}
+.starship{
+    position:relative;
+    padding-top: 360px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 55px
+}
+.starship h3{
+    font-size: 50px;
+}
+.main2{
+    height: 647px;
+    width: 100%;
+    background-image:url(Images/Image\ 3.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: baseline;
+}
+.mission{
+    position:relative;
+    padding-top: 360px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    margin-left: 50px;
+
+}
+.mission p{
+    font-size: 50px;
+    margin-top: -15px;
+}
+.main3{
+    height: 647px;
+    width: 100%;
+    background-image:url(Images/Image\ 4.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: baseline;
+}
+.moon{
+    position:relative;
+    padding-top: 360px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    margin-left: 55px;
+
+}
+.moon p{
+    font-size: 50px;
+    margin-top: -80px;
+}
+.footer{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.list p{
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: left;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: -40px;
+}
+.list ul{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.list ul li{
+    margin-left: 20px;
+    color: #fff;
+    font-size: 13px;
+}
+.list ul:hover{
+  color: #212121;
+}
